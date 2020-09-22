@@ -217,6 +217,9 @@ markup.list.item {
 markup.code {
   background-color: #59be84;
 }
+markdown.image.markup.link {
+  color: #fd8877;
+}
 
 /* Types */
 definition.class class.name,
