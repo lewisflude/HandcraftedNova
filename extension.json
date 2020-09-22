@@ -2,7 +2,8 @@
   "identifier": "handengineering.Handcrafted",
   "name": "Handcrafted",
   "organization": "Hand Engineering",
-  "description": "A carefully crafted theme for creative coders",
+  "description": "A carefully crafted Nova theme for creative coders",
   "version": "1.0",
-  "categories": ["themes"]
+  "categories": ["themes"],
+  "bugs": "https://github.com/lewisflude/Handcrafted/issues"
 }
