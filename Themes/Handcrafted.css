@@ -1,0 +1,290 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: auto;
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+  background-color: #101d27;
+  border-color: #25323d;
+}
+meta.titlebar {
+  color: #d1c4b6;
+  border-color: #25323d;
+}
+meta.titlebar.inactive {
+}
+
+meta.button {
+  background: #101d27;
+  color: #d1c4b6;
+  border: 1px solid #25323d;
+}
+meta.button.highlighted {
+  background: #03131d;
+}
+meta.button.selected {
+  color: #53606d;
+}
+meta.button.highlighted.selected {
+  color: #53606d;
+}
+meta.button.disabled {
+  background: #53606d;
+  border: #53606d;
+  color: #b6a99b;
+}
+
+meta.textfield {
+  background-color: #53606d;
+  border-color: #101d27;
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: #101d27;
+  border-color: #03131d;
+}
+
+meta.document.button {
+  background: #101d27;
+  color: #d1c4b6;
+  border: 1px solid #25323d;
+}
+meta.document.button.disabled {
+  background: #53606d;
+  border: #53606d;
+  color: #b6a99b;
+}
+meta.document.button.highlighted {
+  background: #03131d;
+}
+
+meta.document.textfield {
+  background-color: #53606d;
+  border-color: #101d27;
+}
+
+/* Text */
+meta.text {
+  color: #d1c4b6;
+}
+meta.text.invisible {
+  color: #53606d;
+}
+meta.text.selected {
+  color: #3b4854;
+}
+
+/* Cursor */
+meta.cursor {
+  background: none;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: #53606d;
+}
+
+/* Gutter */
+meta.gutter {
+  color: #53606d;
+}
+meta.gutter.selected {
+  background-color: #03131d;
+  color: #d1c4b6;
+}
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+  color: #d68eff;
+}
+comment {
+  color: #53606d;
+}
+processing {
+  color: #43bbce;
+}
+declaration {
+  color: #43bbce;
+}
+bracket {
+  color: #43bbce;
+}
+operator {
+  color: #43bbce;
+}
+invalid {
+  background-color: #fd8877;
+  color: #101d27;
+}
+link {
+  color: #101d27;
+}
+
+/* Values */
+value.boolean {
+  color: #b3ae50;
+}
+value.null {
+  color: #b3ae50;
+}
+value.number {
+  color: #b3ae50;
+}
+value.entity {
+  color: #b3ae50;
+}
+value.symbol {
+  color: #b3ae50;
+}
+
+/* Identifiers */
+identifier.type {
+  color: #65c032;
+}
+identifier.constant {
+}
+identifier.global,
+identifier.variable {
+  color: #fd8877;
+}
+identifier.property,
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: #9aa5ff;
+}
+identifier.key {
+  color: ##b3ae50;
+}
+identifier.argument {
+  color: ##b3ae50;
+}
+
+/* Strings */
+string {
+  color: #59be84;
+}
+string.key {
+  color: #59be84;
+}
+string-template {
+  color: #59be84;
+}
+string-template.value {
+  color: #59be84;
+}
+regex {
+  color: #43bbce;
+}
+regex.escaped {
+  color: #59be84;
+}
+cdata {
+  color: #43bbce;
+}
+
+/* Markup */
+markup.heading {
+  color: #9aa5ff;
+}
+markup.line {
+  color: #43bbce;
+}
+markup.bold {
+  color: #65c032;
+  font-weight: bold;
+}
+markup.italic {
+  color: #d68eff;
+  font-style: italic;
+}
+markup.strikethrough {
+  color: #53606d;
+}
+markup.list.item {
+  color: #fd8877;
+}
+markup.code {
+  background-color: #59be84;
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  font-weight: bold;
+  color: hsb(258, 40%, 87%);
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: hsb(210, 10%, 100%);
+}
+
+/* Tags */
+tag {
+  color: #fd8877;
+}
+tag.framework {
+  color: #f585ca;
+}
+tag.attribute.name {
+  color: #9aa5ff;
+}
+tag.attribute.value {
+  color: #b3ae50;
+}
+tag.attribute.value.link {
+  color: #101d27;
+}
+
+/* Styles */
+style.at {
+  color: #9aa5ff;
+  font-weight: bold;
+}
+style.selector.element {
+  font-weight: bold;
+}
+style.selector.identifier.id {
+  color: #9aa5ff;
+}
+style.selector.identifier.class {
+  color: #65c032;
+}
+style.selector.pseudoclass {
+  color: #65c032;
+}
+style.selector.pseudoelement {
+  color: #65c032;
+}
+style.attribute.name {
+  color: #9aa5ff;
+}
+style.value.number {
+  color: #b3ae50;
+}
+style.value.color.hex {
+  color: #b3ae50;
+}
+style.value.keyword {
+  color: #d68eff;
+}
+style.value.color.named {
+  color: #d68eff;
+}
