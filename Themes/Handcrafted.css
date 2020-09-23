@@ -291,11 +291,9 @@ style.value.keyword {
 style.value.color.named {
   color: #d68eff;
 }
-
 typescript.identifier.constant.name {
   color: #9aa5ff;
 }
-
 typescript.identifier.function {
   color: #9aa5ff;
 }
