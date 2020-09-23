@@ -14,8 +14,10 @@ meta.window {
 meta.titlebar {
   color: #d1c4b6;
   border-color: #25323d;
+  background-color: #101d27;
 }
 meta.titlebar.inactive {
+  background-color: #53606d;
 }
 
 meta.button {
