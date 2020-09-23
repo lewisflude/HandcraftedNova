@@ -2,8 +2,9 @@
   "identifier": "handengineering.Handcrafted",
   "name": "Handcrafted",
   "organization": "Hand Engineering",
+  "homepage": "https://hand.engineering/handcrafted",
   "description": "A carefully crafted dark theme for creative coders",
-  "version": "1.5.2",
+  "version": "1.5.8",
   "categories": ["themes"],
   "bugs": "https://github.com/lewisflude/Handcrafted/issues"
 }

@@ -17,7 +17,7 @@ meta.titlebar {
   background-color: #101d27;
 }
 meta.titlebar.inactive {
-  background-color: #53606d;
+  background-color: #03131d;
 }
 
 meta.button {
@@ -218,7 +218,7 @@ markup.list.item {
   color: #fd8877;
 }
 markup.code {
-  background-color: #59be84;
+  background-color: #25323d;
 }
 markdown.image.markup.link {
   color: #fd8877;
