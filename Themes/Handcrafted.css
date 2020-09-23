@@ -300,3 +300,6 @@ typescript.identifier.constant.name {
 typescript.identifier.function {
   color: #9aa5ff;
 }
+html.tag.attribute.link {
+  color: #59be84;
+}
