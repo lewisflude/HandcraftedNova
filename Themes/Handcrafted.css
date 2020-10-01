@@ -120,10 +120,10 @@ declaration {
   color: #43bbce;
 }
 bracket {
-  color: #43bbce;
+  color: #d1c4b6;
 }
 operator {
-  color: #43bbce;
+  color: #d1c4b6;
 }
 invalid {
   background-color: #fd8877;
@@ -294,12 +294,23 @@ style.value.keyword {
 style.value.color.named {
   color: #d68eff;
 }
+
+javascript.definition.variable {
+  color: #fd8877;
+}
+
+javascript.string.double-quoted.delimiter,
+javascript.string.backtick-quoted.delimiter {
+  color: #d1c4b6;
+}
 typescript.identifier.constant.name {
   color: #9aa5ff;
 }
+
 typescript.identifier.function {
   color: #9aa5ff;
 }
+
 html.tag.attribute.link {
   color: #59be84;
 }

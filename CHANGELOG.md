@@ -1,3 +1,7 @@
+## Version 1.5.11
+
+Make styles more similar to VS Code theme.
+
 ## Version 1.5.9
 
 Fix typo in README.md.
