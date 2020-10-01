@@ -1,5 +1,9 @@
 ## Version 1.5.9
 
+Fix typo in README.md.
+
+## Version 1.5.9
+
 Add install instructions to README.md.
 
 ## Version 1.5.8
