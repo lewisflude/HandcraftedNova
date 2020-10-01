@@ -1,3 +1,7 @@
+## Version 1.5.9
+
+Add install instructions to README.md.
+
 ## Version 1.5.8
 
 Add new image to README.md.
